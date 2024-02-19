@@ -11,23 +11,37 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    margin-bottom: 30px;
+}
+
 #nome {
     margin: flex;
     margin-right: 40px;
-
 }
 
-#principal {
+#dados {
     margin-left: 20px;
 }
 
 #botao {
-    margin-top: 25px;
-    margin-left: 17px;
+    margin-top: 40px;
     font-size: 20px;
     height: 35px;
     width: 135px;
     border-radius: 20px;
     border-color: aliceblue;
     background-color: rgb(221, 201, 176)
+}
+
+#tabela {
+    width: calc(95%);
+    margin-left: 17px;
+    margin-top: 50px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
 }
