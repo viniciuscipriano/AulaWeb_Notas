@@ -1,2 +1,2 @@
 # AulaWeb_Notas
-Site gerador de registros de notas
+Gerador de registros de notas
