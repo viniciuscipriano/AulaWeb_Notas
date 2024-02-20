@@ -15,6 +15,10 @@ h1 {
     margin-bottom: 30px;
 }
 
+.tabsty {
+    font-weight: bold;
+}
+
 #nome {
     margin: flex;
     margin-right: 40px;

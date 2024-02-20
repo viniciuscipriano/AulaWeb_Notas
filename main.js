@@ -1,4 +1,12 @@
-function gerarTabela() {
+function addTabela() {
+    let dados = document.getElementById("dados").value;
 
-    const oi = document.getElementById;
+    let botao = document.getElementById("botao");
+
+    var arraydados = [];
+
+
+
+    // console.log("arraydados");
+
 }
