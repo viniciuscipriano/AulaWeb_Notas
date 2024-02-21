@@ -17,22 +17,27 @@
                 <h1>Digite os dados do aluno</h1>
                 
                 <label for="nome">Nome</label>
-                <input id="nome" type="text">
+                <input id="nome" type="text" name="nome" required>
 
                 <label for="nota">Nota</label>
-                <input id="nota" type="text">
+                <input id="nota" type="text" name="nota" required>
 
-                <div>
-                <button id="botao" onchange="addTabela()">Inserir aluno</button>
-                </div>
+                <button id="botao" type="submit" onclick="addTabela">Inserir aluno</button>
             </div>
         </form>
     </main>
-    <table id="tabela" border="1">
+    <div id="tabela">
+
+    </div>
+
+    <!-- <table id="tabela" border="1">
+        <thead>
         <tr class="tabsty">
-            <td>NOME</td>
-            <td>NOTA</td>
+            <th>NOME</th>
+            <th>NOTA</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <td></td>
             <td></td>
@@ -41,6 +46,7 @@
             <td></td>
             <td></td>
         </tr>
-    </table>
+        </tbody>
+    </table> -->
 </body>
 </html>
