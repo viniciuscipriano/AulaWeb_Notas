@@ -1,30 +1,69 @@
 body{
-    background: rgb(247, 240, 231);
+    background-color: purple;
+    background-image: url("img3.jpg");
+/*    background: rgb(247, 240, 231);*/
 }
 
-#titulo {
-    color: rgb(10, 10, 10);
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+label{
+    font-size: 19px;
+    margin-bottom: 6px;
 }
+
+#nome {
+    margin-bottom: 8px;
+    font-size: 15px;
+    border-radius: 3px;
+    border-color: blue;
+    border: transparent;
+    padding: 5px 12px;
+    font-color: ;
+}
+
+#nota{
+    font-size: 15px;
+    border-radius: 3px;
+    border-color: blue;
+    border: transparent;
+    padding: 5px 12px;
+
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+
+form{
+    border: 1px solid red;
+    border-color: transparent;
+    border-radius: 15px;
+    padding-bottom: 60px;
+    padding-right: 70px;
+    padding-left: 60px;
+    padding-top: 15px;
+    margin-top: 15px;
+    backdrop-filter: blur(15px);
+    background: rgba(44, 105, 97, 0.2);
+    box-shadow: 0 0 30px 1px ;
+}
+
 
 h1 {
     margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 .tabsty {
     font-weight: bold;
 }
 
-#nome {
-    margin: flex;
-    margin-right: 40px;
-}
-
 #dados {
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
 }
 
@@ -35,17 +74,31 @@ h1 {
     width: 135px;
     border-radius: 20px;
     border-color: aliceblue;
-    background-color: rgb(221, 201, 176)
+    background-color: rgba(139, 192, 185, 0.2)   
 }
 
 #tabela {
-    width: calc(95%);
-    margin-left: 17px;
-    margin-top: 50px;
+    width: calc(35%);
     background-color: white;
+    backdrop-filter: blur(15px);
+    background: rgba(44, 105, 97, 0.2);
+    box-shadow: 0 0 30px 1px ;
     border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabmover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
 }
 
 td {
     padding: 8px;
+}
+
+#thead {
+    text-align: center;
+    font-weight: bold;
 }

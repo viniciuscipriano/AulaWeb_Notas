@@ -10,43 +10,29 @@
     <title>Registrador</title>
 </head>
 <body>
-    <header id="titulo">Registrador de notas</header>
-    <main>
-        <form action="">
+    <main id="principal">
+        <form onsubmit="return addTabela()">
             <div id="dados">
                 <h1>Digite os dados do aluno</h1>
                 
                 <label for="nome">Nome</label>
-                <input id="nome" type="text" name="nome" required>
+                <input id="nome" type="text" name="nome" autocomplete="off" required>
 
                 <label for="nota">Nota</label>
                 <input id="nota" type="text" name="nota" required>
 
-                <button id="botao" type="submit" onclick="addTabela">Inserir aluno</button>
+                <button id="botao" type="submit">Inserir aluno</button>
             </div>
         </form>
     </main>
-    <div id="tabela">
+    <div id="tabmover">
+        <table id="tabela" border="1">
+            <thead id="thead">
+            </thead>
+            <tbody id="tbody">
 
+            </tbody>
+        </table>
     </div>
-
-    <!-- <table id="tabela" border="1">
-        <thead>
-        <tr class="tabsty">
-            <th>NOME</th>
-            <th>NOTA</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        </tbody>
-    </table> -->
 </body>
 </html>
